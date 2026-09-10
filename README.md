@@ -40,9 +40,3 @@ To collect data:
 3. In `exp.js`, replace the empty `PROLIFIC_COMPLETION_URL` value with your Prolific completion URL.
 4. Put the hosted `index.html` URL into Prolific as the study URL.
 5. Run a pilot and confirm that a CSV file appears in `data/`.
-
-The expected Prolific study URL format is:
-
-`https://your-server.example/improved-statistical-maze/index.html`
-
-Prolific will automatically add participant parameters when the study is launched.
